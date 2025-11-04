@@ -10,5 +10,10 @@ env/
 venv/
 
 # Data & models (DVC will handle versioning later)
-data/
-models/
+data/*
+!data/.gitignore
+!data/*.dvc
+
+models/*
+!models/.gitignore
+!models/*.dvc
