@@ -1,0 +1,10 @@
+artifact_location: file:///D:/mlops-basics/mlruns/395754064922022233/models/m-cc37644d2ae9428e8f7ba452d8c41c0b/artifacts
+creation_timestamp: 1762239739303
+experiment_id: '395754064922022233'
+last_updated_timestamp: 1762239746455
+model_id: m-cc37644d2ae9428e8f7ba452d8c41c0b
+model_type: null
+name: sklearn-model
+source_run_id: a3ae519fc66c4572a8c2600048b1f013
+status: 2
+status_message: null

@@ -1,0 +1,12 @@
+stages:
+  train:
+    cmd: python src/train.py
+    deps:
+    - src/train.py
+    params:
+    - train.max_iter
+    - train.random_state
+    - train.sample_print
+    - train.test_size
+    outs:
+    - models/iris_model.pkl

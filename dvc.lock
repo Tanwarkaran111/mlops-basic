@@ -1,0 +1,20 @@
+schema: '2.0'
+stages:
+  train:
+    cmd: python src/train.py
+    deps:
+    - path: src/train.py
+      hash: md5
+      md5: c27a6f17af1f74f8d03bcf324157e043
+      size: 2345
+    params:
+      params.yaml:
+        train.max_iter: 200
+        train.random_state: 42
+        train.sample_print: 5
+        train.test_size: 0.2
+    outs:
+    - path: models/iris_model.pkl
+      hash: md5
+      md5: d57764b58555f4a13a865b1edb7d8616
+      size: 991
